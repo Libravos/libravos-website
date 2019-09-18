@@ -63,6 +63,12 @@ $(document).ready(function() {
 	$(document).scroll(function () {
 	  var $nav = $("#navbar-top");
 	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	  if ($(this).scrollTop() > $nav.height()){
+		$('#navbar_logo').attr("src","/img/logo_text_white.png");
+	  }
+	  else{
+		$('#navbar_logo').attr("src","/img/logo_text.png");
+	  }
 	});
 
 });
