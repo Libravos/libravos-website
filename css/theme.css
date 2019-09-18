@@ -26,9 +26,19 @@ body {
 	background: #3a53a4;
 	color: white;
 }
+.white{
+	background: white;
+	color: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:black;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:black;
+}
 
 .gray {
-	color: #636261;
+	color: #636259;
 }
 
 .headline {
@@ -102,4 +112,14 @@ hr {
 .dropdown-item:hover {
 	color: #3a53a4;
 	background: white;
+}
+
+/* navbar */
+#navbar-top.scrolled {
+  background-color: #3a53a4 !important;
+  transition: background-color 200ms linear;
+}
+
+#navbar-top.scrolled .nav-link {
+  color:white;
 }

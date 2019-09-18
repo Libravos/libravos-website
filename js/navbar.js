@@ -59,4 +59,12 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('#soonModal').modal('show');
 	});
+	//change color on scroll
+	$(document).scroll(function () {
+	  var $nav = $("#navbar-top");
+	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+	});
+
 });
+
+
