@@ -24,7 +24,7 @@
 			<img src="/img/contact-mail.png" height="100" />
 			<h1 class="blue-header deadCenter text-center" style="color:white">
 				Don't be a stranger! For all inquiries, reach out to us at
-				<a href="mailto:contact@sharedschool.co" class="blue-header" style="color:white">contact@sharedschool.co</a>
+				<a href="mailto:contact@libravos.com" class="blue-header" style="color:white">contact@libravos.com</a>
 			</h1>
 		</div>
 	</div>
