@@ -65,9 +65,11 @@ $(document).ready(function() {
 	  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 	  if ($(this).scrollTop() > $nav.height()){
 		$('#navbar_logo').attr("src","/img/logo_text_white.png");
+		$('#navbar_contact_us').css("color","white");
 	  }
 	  else{
 		$('#navbar_logo').attr("src","/img/logo_text.png");
+		$('#navbar_contact_us').css("color","black");
 	  }
 	});
 
