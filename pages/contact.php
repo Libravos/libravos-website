@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact Us | SharedSchool</title>
+	<title>Contact Us | Libravos</title>
 	<?php include '../helper/includes.php'; ?>
 	<style>
 		#page-content {
